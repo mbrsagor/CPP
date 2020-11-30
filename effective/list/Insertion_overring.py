@@ -78,3 +78,27 @@ class SortedDict(MutableMapping):
 
 
 sorted_ranks = SortedDict()
+
+#
+# def get_winner(ranks):
+#     for name, rank in ranks.items():
+#         if rank == 1:
+#             return name
+#
+# winner = get_winner()
+
+"""
+from typing import Dict, MutableMapping
+
+
+def populate_ranks(votes: Dict[str, int], ranks: Dict[str, int]) -> None:
+    names = list(votes.keys())
+    names.sort(key=votes.get, reverse=True)
+    for i, name in enumerate(names, 1):
+        ranks[name] = i
+
+
+def get_winner(ranks: Dict[str, int]) -> str:
+    return next(iter(ranks))
+
+"""
