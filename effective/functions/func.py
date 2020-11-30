@@ -8,14 +8,12 @@ lengths = [63, 73, 72, 60, 67, 66, 71, 61, 72, 70]
 minimum, maximum = get_states(lengths)
 print(f"Min: {minimum}, Max: {maximum}")
 
-first, second = 1, 3
-assert first == 1
-assert second == 2
+
+def get_avg_ratio(number):
+    average = sum(number) / len(number)
+    scaled = [x / average for x in number]
+    scaled.sort(reverse=True)
 
 
-def my_function():
-    return 1, 2
+# longest, *middle, shortest = get_avg_ratio(lengths)
 
-
-assert first == 1
-assert second == 2
