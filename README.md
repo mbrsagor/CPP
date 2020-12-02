@@ -5,12 +5,12 @@
 
 ###### Basically it will be share some books topics:
 
-- Book: 1
+- Book 1: Effective python
     - Lists and Dictionaries
     - Functions
     - Comprehensions and Generators
     - Classes and Interfaces
-- Book: 2
+- Book 1: Crash course 
     - Variables and Simple Data Types
     - Introducing Lists
     - Working with Lists
