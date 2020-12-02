@@ -10,7 +10,8 @@
     - Functions
     - Comprehensions and Generators
     - Classes and Interfaces
-- Book 1: Crash course 
+    
+- Book 2: Crash course 
     - Variables and Simple Data Types
     - Introducing Lists
     - Working with Lists
@@ -21,3 +22,5 @@
     - Classes
     -  Files and Exceptions
     
+ - Book 3: Python the hard way_2018
+    - Part-III
