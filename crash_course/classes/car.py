@@ -1,4 +1,4 @@
-class Car:
+class Car(object):
     """A simple attempt to represent a car."""
 
     def __init__(self, make, model, year):
