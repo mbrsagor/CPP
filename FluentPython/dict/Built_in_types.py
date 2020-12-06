@@ -15,3 +15,10 @@ print(e)
 
 abc = a == b == c == d == e
 print(abc)
+
+
+o = open('cafe.txt', 'w', encoding='utf_8').write('café')
+print(o)
+
+_read = open('cafe.txt').read()
+print(_read)
