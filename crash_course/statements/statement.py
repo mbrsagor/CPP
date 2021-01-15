@@ -1,9 +1,3 @@
-cars = ['audi', 'bmw', 'subaru', 'toyota']
-for car in cars:
-    if car == 'bmw':
-        print(car.upper())
-    else:
-        print(car.title())
 requested_topping = 'mushrooms'
 if requested_topping != 'anchovies':
     print("Hold the anchovies!")
@@ -16,9 +10,8 @@ if answer != 40:
 else:
     print("This is correct answer! You are welcome.")
 
-
 available_toppings = ['mushrooms', 'olives', 'green peppers',
- 'pepperoni', 'pineapple', 'extra cheese']
+                      'pepperoni', 'pineapple', 'extra cheese']
 
 requested_toppings = ['mushrooms', 'french fries', 'extra cheese']
 
