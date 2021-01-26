@@ -14,7 +14,11 @@ students = [
     }
 ]
 
-
 names_list = [student['name'] for student in students]
 print(names_list)
 
+f = ["Mango", "Apple", "Orange"]
+a, b, c = f
+print(a)
+print(b)
+print(c)
